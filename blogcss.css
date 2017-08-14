@@ -71,7 +71,8 @@ main article h1 {
     font-size: 1.7rem;
 }
 
- h1:hover {
+ h1:hover,
+ h2:hover {
     color: crimson;
 } 
 
