@@ -64,16 +64,16 @@ nav ul li a:active {
 /*********************************
     BODY: CONTENT
 **********************************/
-main article h1, h2 {
+main article h1 {
     text-align: center;
     color: darkslategray;
     font-weight: bold;
     font-size: 1.7rem;
 }
 
-h1:hover {
+ h1:hover {
     color: crimson;
-}
+} 
 
 #first-article, #second-article {
     padding-right: 0.5rem;
@@ -82,9 +82,18 @@ h1:hover {
     text-align: center;
 }
 
-P {
+P, h2 {
     color: darkslategray;
 }
+
+h2 {
+    padding-top: 20%;
+}
+
+ section {
+    text-align: center;
+    padding: 10% 30% 3% 30%;
+} 
 
 
 /*********************************
@@ -101,12 +110,37 @@ P {
 /*********************************
     MEDIA QUERIES
 **********************************/
-@media (min-width: 457px) {
+@media (min-width: 307px) {
+    header {
+        background-color: crimson; 
+        height: 20%;
+        width: 100%;
+    }
+
+    nav ul {
+    text-align: center;
+    margin-right: 30%;
+    width: auto; 
+    }
+
+    nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        font-size: 0.75rem; 
+        background-color: goldenrod;
+        color: white;
+        border: 1px solid white;
+    }
+
+}
+    
+
+@media (min-width: 644px) {
     header {
     background-color: darkseagreen;
     height: 40%;
     width: 100%;
-    position: fixed; 
+    position: flex: ;ed; 
     }
     
     nav h1 {
@@ -115,13 +149,9 @@ P {
     padding-left: 2rem;
     }
 
-    p {
-        color: red;
-    }
-
     nav ul {
         text-align: right;
-        width: auto%;  
+        width: 100%;  
         background-color: darkslategray;
     }
 
@@ -131,7 +161,7 @@ P {
         font-size: 1.1rem;
         padding-right: 4rem;
         padding-left: 4rem;
-        margin-right: 2%;
+        margin-right: 4%;
         background-color: goldenrod;
         color: white;
         opacity: 0.8;
