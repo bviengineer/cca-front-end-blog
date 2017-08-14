@@ -1,0 +1,160 @@
+/*********************************
+    HEADER
+**********************************/
+header {
+    background-color: darkseagreen;
+    height: 10rem;
+    width: 15rem;
+    margin-top: -2rem;
+    margin-left: -0.4rem;
+     position: fixed; 
+}
+
+
+/*********************************
+    NAV
+**********************************/
+nav h1 {
+    font-size: 2rem;
+    color: aliceblue;
+}
+
+nav ul {
+    text-align: center;
+     /* margin-right: 10rem;  */
+}
+
+nav ul li {
+    list-style-type: none;
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    /* margin-right: 1.7%; */
+    background-color: goldenrod;
+    color: aliceblue;
+    opacity: 0.8;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+    color: crimson;
+    text-decoration-line: overline;
+    font-weight: bold;
+}
+
+
+/*********************************
+    IMAGES
+**********************************/
+#first-article img {
+    margin-top: 14rem;
+}
+
+#second-article img {
+    margin-top: 2rem;
+}
+
+
+/*********************************
+    BODY: CONTENT
+**********************************/
+main article h1, h2 {
+    text-align: center;
+    color: darkslategray;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+h1:hover {
+    color: crimson;
+}
+
+#first-article, #second-article {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+P {
+    color: darkslategray;
+}
+
+
+/*********************************
+    FOOTER
+**********************************/
+ footer {
+    background-color: darkseagreen;
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+
+/*********************************
+    MEDIA QUERIES
+**********************************/
+@media (min-width: 457px) {
+    header {
+    background-color: darkseagreen;
+    height: 40%;
+    width: 100%;
+    position: fixed; 
+    }
+    
+    nav h1 {
+    font-size: 3rem;
+    color: aliceblue;
+    padding-left: 2rem;
+    }
+
+    p {
+        color: red;
+    }
+
+    nav ul {
+        text-align: right;
+        width: auto%;  
+        background-color: darkslategray;
+    }
+
+    nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        font-size: 1.1rem;
+        padding-right: 4rem;
+        padding-left: 4rem;
+        margin-right: 2%;
+        background-color: goldenrod;
+        color: white;
+        opacity: 0.8;
+        border: 3px solid white;
+    }
+
+    #first-article {
+        float: left;
+        width: 40%;
+        margin-top: 5rem;
+        margin-left: 2rem;
+        padding: 1rem;
+    }
+
+    #second-article {
+        float: right;
+        width: 40%;
+        margin-top: 18rem;
+        padding: 1rem;
+        margin-right: 2rem;
+    }
+
+    footer {
+        clear: both;
+    }
+}
