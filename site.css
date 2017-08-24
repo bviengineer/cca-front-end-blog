@@ -1,0 +1,61 @@
+/******************************
+    BODY
+*******************************/
+    header {
+        background: linear-gradient(to top right, mediumaquamarine, coral);
+        height: 10rem;
+        margin-bottom: 5rem;
+    }
+
+    .featured-article {
+        width: 50%;
+        margin-left: 5rem;
+    }
+
+    #about-me-pg {
+        width: 50%;
+    }
+
+    p, ol {
+        font-size: 1.8rem;
+    }
+
+    p {
+        text-indent: 2rem;
+        padding-top: 2rem;
+    }
+
+    aside {
+        background-color: mediumaquamarine;
+        height: 30rem;
+        margin-left: 20rem;
+        border-radius: 2rem;
+        color: white;
+    }
+
+    /*CONTACT FORM ON ASIDE*/
+    #contact-me {
+        width: 80%;
+        padding-top: 2rem;
+        padding-left: 7rem; 
+    }
+
+    h3, h4 {
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+
+    /*PAGINATION*/
+    #pagination-list-items {
+        text-align: center;
+    }
+
+/******************************
+    FOOTER
+*******************************/
+.footer {
+    padding-top: 5rem;
+    text-align: center;
+    color: crimson;
+    font-weight: bold;
+}
