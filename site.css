@@ -150,9 +150,20 @@ ol {
 /***************************************
     ABOUT ME PAGE
 ****************************************/    
-#about-me-pg {
-    width: 30%;
+#bio-photo {
+    position: relative;
+    float: left;
+    margin-right: 3rem;
+    margin-left: 1rem;
+    max-width: 15%;
+    box-shadow: 0px 0px;
+    border-radius: 5rem;
 }
+
+/* p::first-letter {
+    font-size: 200%;
+    font-weight: bold;
+} */
 
 
 /*******************************
