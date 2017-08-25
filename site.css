@@ -215,9 +215,9 @@ img {
 }
 
 /*******************************
-    ABOUT HTML ARTICLE PAGE
+    ABOUTHTML ARTICLE PAGE
 *********************************/
-#hyperlink-example img {
+#hyperlink-example {
     border-radius: 2rem;
     margin-bottom: 2rem;
     max-width: 70%;
@@ -225,15 +225,19 @@ img {
     box-shadow: 10px 10px grey;
 }
 
-/*******************************
-    ABOUT HTML ARTICLE PAGE
-*********************************/
-img {
+#html5-img{
     border-radius: 2rem;
     margin-bottom: 2rem;
-    max-width: 70%;
-    margin-left: 15%;
+    max-width: 30%;
+    margin-right: 20%;
     box-shadow: 10px 10px grey;
+    position: relative;
+    float: right;
+    top: -14rem;
+}
+
+.clear-float {
+    clear: both;
 }
 
 
