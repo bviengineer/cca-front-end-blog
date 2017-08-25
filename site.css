@@ -95,6 +95,7 @@ h3 {
     font-weight: bold;
     font-size: 2rem;
     margin-bottom: 0.5rem;
+    text-transform: capitalize;
 }
 
 h4 {
@@ -184,9 +185,10 @@ aside {
     padding-left: 7rem; 
 }
 
-    /*Send Now Button*/
+    /* Send Now Button */
 .btn-default {
-    background-color: firebrick;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
     color: white;
 }
 
@@ -205,6 +207,17 @@ aside {
     BOOTCAMP ARTICLE PAGE
 *********************************/
 img {
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+    max-width: 70%;
+    margin-left: 15%;
+    box-shadow: 10px 10px grey;
+}
+
+/*******************************
+    ABOUT HTML ARTICLE PAGE
+*********************************/
+#hyperlink-example img {
     border-radius: 2rem;
     margin-bottom: 2rem;
     max-width: 70%;
