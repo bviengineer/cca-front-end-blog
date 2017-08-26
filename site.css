@@ -173,7 +173,8 @@ ol {
 aside {
     background-color: mediumaquamarine;
     height: 30rem;
-    margin-left: 20rem;
+    margin-left: 8rem;
+    padding-right: 10rem;
     border-radius: 2rem;
     color: white;    
 }
@@ -228,12 +229,18 @@ img {
 #html5-img{
     border-radius: 2rem;
     margin-bottom: 2rem;
-    max-width: 30%;
-    margin-right: 20%;
+    max-width: 20%;
+    margin-left: 5%;
+    margin-right: 25%;
     box-shadow: 10px 10px grey;
     position: relative;
+    float: left;
+    top: 1rem;
+}
+
+#semantic-elements {
     float: right;
-    top: -14rem;
+    margin-right: 10%;     
 }
 
 .clear-float {
